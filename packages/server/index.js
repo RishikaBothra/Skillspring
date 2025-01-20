@@ -1,9 +1,9 @@
 const express = require('express');
-const userRoutes = require('./routes/user.js');
-const courseRoutes = require('./routes/course.js');
-const adminRoutes = require('./routes/admin.js');
-const config = require('./config/config.js');
-const connectDB = require('./config/db.js');
+const userRoutes = require('./routes/user');
+const courseRoutes = require('./routes/course');
+const adminRoutes = require('./routes/admin');
+const config = require('./config/config');
+const connectDB = require('./config/db');
 
 const app = express();
 app.use(express.json());

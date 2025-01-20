@@ -2,10 +2,10 @@ const Router = require("express")
 const courseRoutes = Router();
 
 
-courseRoutes.post("/purchase",function(res,req){
+courseRoutes.post("/purchase",function(req,res){
 })
 
-courseRoutes.get("/preview",function(res,req){
+courseRoutes.get("/preview",function(req,res){
 })
 
 module.exports = courseRoutes;
