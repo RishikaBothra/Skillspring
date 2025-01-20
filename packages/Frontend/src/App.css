@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 40%;
+    background-color: #877de6;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30%;
+
+    
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+   
+
+}
+
+.buttons{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:100%;
+   
+  
+}
+
+.buttons button{
+  background-color: white;
+  color: #877de6;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.buttons .active{
+  background-color: #877de6;
+  color: white;
+}
+
+
